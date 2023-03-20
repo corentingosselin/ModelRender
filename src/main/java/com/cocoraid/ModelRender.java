@@ -30,7 +30,7 @@ public class ModelRender extends JavaPlugin {
 
                     for (Vector vertex : modelVertices) {
                         Location particleLocation = playerLocation.clone().add(vertex);
-                        player.spawnParticle(Particle.END_ROD, particleLocation, 0, 0, 0, 0, 1);
+                        player.spawnParticle(Particle.SUSPENDED, particleLocation, 0, 0, 0, 0, 1);
                     }
                 }
             }
