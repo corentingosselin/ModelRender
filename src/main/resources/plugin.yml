@@ -1,0 +1,7 @@
+name: ProdigyNightclub
+version: 1.0.0
+author: cocoraid
+api-version: 1.19
+main: com.cocoraid.ModelRender
+
+
